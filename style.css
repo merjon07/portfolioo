@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.box{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(74, 77, 77);
+    display: flex;
+}
+.box1{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+}
+.box2{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.box2 a{
+    cursor: pointer;
+    color: cyan;
+}
+.box2 :hover{
+    color: crimson;
+}
+.merjon{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: rgb(93, 123, 162);
+    font-weight: 700;
+}
+.merjon :hover{
+    color: crimson;
+}
+.box3{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background: url(./alimovv.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box4{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    color: wheat;
+}
+.box5{
+    width: 50%;
+    height: 100%;
+}
+.box4 h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 170px;
+    margin-left: 70px;
+}
+.box6{
+    font-size: 52px;
+    font-weight: 900;
+}
+.animated-text {
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.animated-text h3 {
+  color: cyan;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+
+.animated-text h3:nth-child(1) {
+  animation: text-move 10s infinite
+}
+
+@keyframes text-move {
+  0% {
+    margin-top: 0;
+  }
+
+  25% {
+    margin-top: -70px;
+  }
+
+  50% {
+    margin-top: -140px;
+  }
+
+  75% {
+    margin-top: -70px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+.box7{
+    width: 160px;
+    height: 40px;
+    background-color: crimson;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.box7 :hover{
+    background-color: wheat;
+    color: crimson;
+}
+.media-icons a {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 30px;
+}
+.ing-tili{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.ing-tili h1{
+    text-align: center;
+    margin-top: 30px;
+    color: tomato;
+    font-size: 35px;
+    font-weight: 800;
+}
+.box8{
+    width: 50%;
+    height: 500px;
+}
+.box9{
+    width: 50%;
+    height: 500px;
+}
+.bit{
+    width: 100%;
+    height: 500px;
+    display: flex
+}
+.box0{
+    width: 410px;
+    height: 410px;
+    /* background-color: tomato; */
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 150px;
+    display: flex;
+}
+.bit1{
+    width: 50%;
+    height: 100%;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.bit2{
+    width: 100%;
+    height: 50%;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.bit3{
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bit4{
+    font-size: 35px;
+    font-weight: 800;
+    color: tomato;
+}
+.rus-tili{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(44, 28, 28);
+}
+.rus-tili h1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(93, 197, 161);
+    font-size: 35px;
+    font-weight: 800;
+}
+.bit5{
+    text-align: center;
+    color: rgb(118, 168, 233);
+    font-size: 20px;
+    font-weight: 600;
+}
+.bit5 span{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(204, 94, 74);
+}
+.bit6{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.bit7{
+    width: 50%;
+    height: 100%;
+}
+.boks{
+    width: 160px;
+    height: 40px;
+    background-color: crimson;
+    margin-top: 300px;
+    margin-left: 60px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.bit8{
+    width: 50%;
+    height: 100%;
+}
+.img2{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 110px;
+    border-radius: 15px;
+}
+.kores-tili{
+    width: 100%;
+    height: 1500px;
+    background-color: #000;
+}
+.kores-tili h1{
+    text-align: center;
+    color: rgb(180, 240, 120);
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.bik{
+    width: 100%;
+    height: 1000px;
+}
+.bik1{
+    width: 100%;
+    height: 600px;
+}
+.bik2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.bik3{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.img4{
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 15px;
+}
+.img5{
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 15px;
+}
+.img6{
+    width: 300px;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 300px;
+    border-radius: 15px;
+}
+.img7{
+    width: 300px;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.bik4{
+    color: skyblue;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.bik4 span{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.book{
+    width: 160px;
+    height: 40px;
+    background-color: crimson;
+    margin-top: 30px;
+    margin-left: 1100px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.footer {
+  background: #000016;
+  color: #fff;
+  text-align: center;
+  padding: 34px;
+}
+.footer .footer-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer p {
+  margin-top: 10px;
+}
+.ingliz-tili h1{
+    text-align: center;
+    color: rgb(194, 82, 82);
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.bot1{
+    font-size: 15;
+    font-weight: 600;
+    margin-left: 30px;
+    color: rgb(45, 131, 77);
+}
+.bot1 span{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(51, 116, 116);
+}
+.bot3{
+    color: coral;
+    font-weight: 800;
+}
+.bot2{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bot2 span{
+    font-weight: 800;
+    color: rgb(17, 17, 17);
+}
+.bot4{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background-color: rgb(36, 80, 121);
+}
+.bot5{
+    width: 50%;
+    height: 100%;
+}
+.bot5 h1{
+    text-align: right;
+    color: red;
+    font-weight: 500;
+}
+.bot6{
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(192, 226, 158);
+}
+.bot6 span{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(177, 187, 82);
+}
+.bot7{
+    width: 100%;
+    height: 900px;
+    background-color: #000;
+    display: flex;
+}
+.box8{
+    width: 50%;
+    height: 100%;
+
+}
+.bot9{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.bot0{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.bot01{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.bott{
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+.bott span{
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(255, 0, 0, 0.679);
+}
